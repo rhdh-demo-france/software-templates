@@ -1,8 +1,8 @@
-package ${{values.java_package_name}};
+package ${{values.javaPackageName}};
 
 import io.quarkus.test.junit.QuarkusIntegrationTest;
 
 @QuarkusIntegrationTest
-public class ExampleResourceIT extends ExampleResourceTest {
+public class GreetingResourceIT extends GreetingResourceTest {
     // Execute the same tests but in packaged mode.
 }
